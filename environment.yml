@@ -1,0 +1,17 @@
+# install with conda env create -f environment.yml
+name: gamequest
+channels:
+  - conda-forge
+dependencies:
+  - kagglehub
+  - matplotlib
+  - pandas
+  - seaborn
+  - langchain-community
+  - langchain-openai
+  - python=3.11
+  - langchain-chroma
+  - transformers
+  - gradio
+  - ipywidgets
+  - notebook

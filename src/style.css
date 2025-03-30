@@ -1,0 +1,164 @@
+/* Enhanced header styling with tech gradient and more height */
+.header-row {
+    margin-bottom: 5px;
+    padding: 35px 25px;
+    border-radius: 10px;
+    background: linear-gradient(135deg, #4a6fa5, #2c4c7c, #1a3a64);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    position: relative;
+    overflow: hidden;
+}
+
+/* Add tech style pattern overlay */
+.header-row:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image:
+        linear-gradient(90deg, rgba(255, 255, 255, 0.07) 1px, transparent 1px),
+        linear-gradient(rgba(255, 255, 255, 0.07) 1px, transparent 1px);
+    background-size: 20px 20px;
+    background-position: center center;
+    opacity: 0.5;
+}
+
+.header-content {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+    z-index: 1;
+}
+
+.header-title {
+    margin: 0;
+}
+
+.header-title h1 {
+    color: white !important;
+    margin-bottom: 5px;
+    font-size: 36px !important;
+    font-weight: 700 !important;
+    text-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.header-title h2 {
+    color: rgba(255, 255, 255, 0.9) !important;
+    margin-top: 0;
+    font-weight: 400 !important;
+    font-size: 20px !important;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+}
+
+
+/* Structural styles only for layout */
+.filters-container {
+    margin-bottom: 20px;
+}
+
+.filters-box {
+    width: 100%;
+    padding: 15px;
+}
+
+.filter-header {
+    margin-top: 0;
+    margin-bottom: 20px;
+    padding-bottom: 10px;
+    border-bottom: 2px solid #4a6fa5;
+    font-size: 20px !important;
+    font-weight: 600 !important;
+}
+
+.filters-row {
+    gap: 15px;
+    margin-bottom: 5px;
+}
+
+.filter-column {
+    display: flex !important;
+    flex-direction: column !important;
+    height: 100% !important;
+}
+
+.filter-group {
+    font-weight: 700 !important;
+    font-size: 15px !important;
+    flex-grow: 1 !important;
+    display: flex !important;
+    flex-direction: column !important;
+}
+
+.filter-group>.label-wrap {
+    font-weight: 700 !important;
+    font-size: 15px !important;
+}
+
+.filter-group>div {
+    height: 100% !important;
+}
+
+/* Keep existing price row styling */
+.price-row {
+    gap: 10px !important;
+    display: flex !important;
+    align-items: flex-start !important;
+}
+
+.price-row>* {
+    flex-grow: 1 !important;
+    flex-basis: 0 !important;
+}
+
+/* Search area styling */
+.search-row {
+    gap: 15px;
+    margin-top: 5px;
+    padding-top: 10px;
+}
+
+/* Footer minimal styling */
+.footer-row {
+    margin-top: 5px;
+    padding-top: 15px;
+    text-align: center;
+}
+
+.footer-text {
+    font-size: 14px;
+}
+
+/* Keep existing gallery overflow scroll functionality */
+.gallery-custom {
+    overflow-y: auto !important;
+    max-height: 800px !important;
+    padding: 10px !important;
+}
+
+/* Keep existing caption styling */
+.gallery-custom .caption {
+    padding: 8px !important;
+    text-align: left !important;
+    font-size: 14px !important;
+    max-height: 80px !important;
+    overflow-y: auto !important;
+}
+
+/* Search button styling */
+.search-button {
+    width: 100% !important;
+    margin-top: 10px !important;
+    font-weight: bold !important;
+    padding: 10px !important;
+    font-size: 16px !important;
+    background-color: #4a6fa5 !important;
+    color: white !important;
+}
+
+.search-button:hover {
+    background-color: #385d8a !important;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2) !important;
+}

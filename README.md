@@ -2,9 +2,15 @@
 
 **Author:** Archer(Rongze) Liu
 
+## Live Demo
+
+You can try out GameQuest without installing anything using the live demo:
+
+🎮 **[Try GameQuest on HuggingFace Spaces](https://huggingface.co/spaces/celt313/gamequest)**
+
 ## Summary
 
-GameQuest is an intelligent game recommender for Steam, the largest PC gaming platform, leveraging Natural Language Processing (NLP) techniques and word embeddings to match users with semantically relevant games based on their input queries. By transforming game descriptions into high-dimensional embeddings, GameQuest enables users to explore games that are contextually similar to their interests. The dataset utilized in GameQuest is the [Steam Games Dataset](https://www.kaggle.com/datasets/fronkongames/steam-games-dataset), which includes information on over 97,000 games available on Steam.
+GameQuest is an intelligent game recommender for Steam, the largest PC gaming platform, leveraging NLP techniques and vector search technology to match users with semantically relevant games. By transforming game descriptions into high-dimensional embeddings stored in a vector database (ChromaDB), GameQuest enables semantic similarity search to find games that are conceptually related to user queries, going beyond simple keyword matching. The system performs efficient nearest-neighbor search in the embedding space to identify games that are contextually similar to the user's interests. The dataset utilized in GameQuest is the [Steam Games Dataset](https://www.kaggle.com/datasets/fronkongames/steam-games-dataset), which includes information on over 97,000 games available on Steam.
 
 ## Project Objectives
 

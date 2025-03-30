@@ -4,14 +4,14 @@
 
 ## Summary
 
-GameQuest is an intelligent game recommendation system for Steam, the largest PC gaming platform, utilizing natural language processing (NLP) techniques and vector search to match users with the most relevant games. The dataset used in GameQuest is the [Steam Games Dataset](https://www.kaggle.com/datasets/fronkongames/steam-games-dataset), which contains information on over 97,000 games published on Steam.
+GameQuest is an intelligent game recommender for Steam, the largest PC gaming platform, leveraging Natural Language Processing (NLP) techniques and word embeddings to match users with semantically relevant games based on their input queries. By transforming game descriptions into high-dimensional embeddings, GameQuest enables users to explore games that are contextually similar to their interests. The dataset utilized in GameQuest is the [Steam Games Dataset](https://www.kaggle.com/datasets/fronkongames/steam-games-dataset), which includes information on over 97,000 games available on Steam.
 
 ## Project Objectives
 
 - [x] Clean and preprocess game data by handling missing values and extracting relevant features.
 - [x] Convert game description into high-dimensional embeddings using OpenAI's embedding model.
 - [x] Store embeddings in ChromaDB and use vector search for efficient game retrieval based on user queries.
-- [ ] Deliver personalized recommendations through an interactive interface.
+- [x] Deliver personalized recommendations through an interactive interface.
 
 ## ⚡Cloning the Repository Without Large Files
 

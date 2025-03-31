@@ -40,15 +40,15 @@ If you are proposing a feature:
 
 ## Get Started!
 
-Ready to contribute? Here's how to set up `vdash` for local development.
+Ready to contribute? Here's how to set up `GameQuest` for local development.
 
-1. Download a copy of `vdash` locally.
+1. Download a copy of `GameQuest` locally.
 
-2. Create and activate a conda environment for `vdash`:
+2. Set up and activate a conda environment for `GameQuest`:
 
     ```console
-    $ conda create -n vdash python=3.11
-    $ conda activate vdash
+    $ conda env create -f environment.yml
+    $ conda activate gamequest
     ```
 
 3. Use `git` (or similar) to create a branch for local development and make your changes:
@@ -71,5 +71,5 @@ Before you submit a pull request, check that it meets these guidelines:
 
 ## Code of Conduct
 
-Please note that the `vdash` project is released with a
+Please note that the `GameQuest` project is released with a
 Code of Conduct. By contributing to this project you agree to abide by its terms.

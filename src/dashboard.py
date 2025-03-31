@@ -304,7 +304,7 @@ with gr.Blocks(theme=gr.themes.Soft(), css=css) as dashboard:
         with gr.Row(elem_classes="results-row"):
             output = gr.Gallery(
                 label="Game Recommendations",
-                columns=4,  # Increase from 3 to 4 for more compact display
+                columns=4,
                 height="auto",
                 allow_preview=True,
                 show_label=True,
